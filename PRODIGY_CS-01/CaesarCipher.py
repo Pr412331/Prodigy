@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Caesar Cipher
-
-# In[15]:
-
-
 def CaesarEncrypt(text, shift):
     enc = ""
     for char in text:
@@ -39,9 +31,6 @@ print ("Cipher: " + CaesarEncrypt(text,s))
 
 cipher = CaesarEncrypt(text, s)
 print ("Original: " + CaesarDecrypt(cipher,s))
-
-
-# In[ ]:
 
 
 

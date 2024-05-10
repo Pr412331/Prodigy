@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 def isStrong(password):
     if len(password) < 12:
         return "Password strength is week. Can be cracked easily."
@@ -36,10 +30,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
 
 
