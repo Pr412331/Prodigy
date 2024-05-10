@@ -1,14 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 from colorama import Fore
-
-
-# In[2]:
-
 
 def encrypt_image(path, key):
     try:
@@ -76,10 +66,5 @@ while True:
         print(Fore.YELLOW + "\nInvalid option.")
         print(Fore.RED + "Exiting...")
         break
-
-
-# In[ ]:
-
-
 
 
